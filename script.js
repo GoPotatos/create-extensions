@@ -4,7 +4,7 @@ const PATH=require("path")
 const PREFIX="timed-scraper-for-ranker-YSA";
 const BASE='.ranker.com/?keywords='
 const child_process=require("child_process")
-SCRIPT_ID="https://script.google.com/macros/s/AKfycbyHlQ6sht0QJ8tVpT26EZv447g7ML_mVqxXQI2UiHG1LLPQZOGy-Ey_uR765wR7-G3j/exec"
+SCRIPT_ID=""
 //path="D:\\Zakas\\extensions\\timed-ranker";
 path=PATH.resolve("../","extensions","timed-ranker")
 axios.get(SCRIPT_ID).then(data=>{
