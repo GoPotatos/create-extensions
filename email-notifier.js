@@ -1,4 +1,4 @@
-const email="awabelmahe@gmail.com"
+const email=""
 function doPost(e){
   const contents=JSON.parse(e.postData.contents)
   createTable(contents)
